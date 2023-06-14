@@ -13,7 +13,7 @@ function App() {
       <div class="bg"></div>
       <Wrap justify="center" padding={"4em"} w="100wv">
         <Wrap>
-          <Box padding="1em 2em 0em 2em" className="container">
+          <Box padding="1em 1em 0em 1em" className="container">
             <Teams />
           </Box>
           <Box>

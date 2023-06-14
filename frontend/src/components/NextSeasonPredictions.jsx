@@ -39,7 +39,7 @@ const NextSeasonPredictions = (props) => {
                 padding={"4px"}
                 borderRadius={"10px"}
               >
-                <Box w="100%" paddingLeft={"10px"} textAlign={"left"}>
+                <Box w="100%" paddingLeft={"10px"} textAlign={"left"} _hover={{cursor:"pointer"}}>
                   {user.username}
                 </Box>
               </Flex>

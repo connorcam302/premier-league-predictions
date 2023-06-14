@@ -55,6 +55,7 @@ const Standings = (props) => {
                 borderRadius={"10px"}
                 paddingLeft={"0.5em"}
                 paddingRight={"1em"}
+                _hover={{cursor:"pointer"}}
               >
                 <Center flex="1">
                   <Box w="100%" paddingLeft={"10px"} textAlign={"left"}>

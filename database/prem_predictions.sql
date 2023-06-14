@@ -143,13 +143,6 @@ ALTER TABLE `teams`
   ADD PRIMARY KEY (`teamid`);
 
 --
--- Indexes for table `teams_2023`
---
-ALTER TABLE `teams_2023`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `placement` (`placement`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -170,12 +163,6 @@ ALTER TABLE `predictions`
 --
 ALTER TABLE `teams`
   MODIFY `teamid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
-
---
--- AUTO_INCREMENT for table `teams_2023`
---
-ALTER TABLE `teams_2023`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT for table `users`
